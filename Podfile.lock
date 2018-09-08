@@ -1,0 +1,22 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - MBProgressHUD-OSX (0.0.1)
+
+DEPENDENCIES:
+  - FMDB
+  - MBProgressHUD-OSX
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - MBProgressHUD-OSX
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  MBProgressHUD-OSX: 7d2dc7973de678785c3b75b8573d776f08a4bb64
+
+PODFILE CHECKSUM: 82ec3a927d9b0092ba66771e359c3259863755d0
+
+COCOAPODS: 1.5.3

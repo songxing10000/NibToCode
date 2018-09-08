@@ -1,0 +1,48 @@
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "MBProgressHUD.h"
+#import "ZHNSString.h"
+
+#import "ZHFileManager.h"
+#import "FMDBCreat.h"
+#import "ZHStoryboardXMLManager.h"
+#import "ZHStoryboardTextManager.h"
+#import "ZHStroyBoardFileManager.h"
+
+
+#import "ViewProperty.h"
+#import "ZHStoryboardPropertyManager.h"
+
+#import "ZHWordWrap.h"
+
+
+//字符串是否为空
+#define StringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+//数组是否为空
+#define ArrayIsEmpty(array) (array == nil || [array isKindOfClass:[NSNull class]] || array.count == 0)
+//字典是否为空
+#define DictIsEmpty(dic) (dic == nil || [dic isKindOfClass:[NSNull class]] || dic.allKeys == 0)
+//是否是空对象
+#define ObjectIsEmpty(_object) (_object == nil \
+|| [_object isKindOfClass:[NSNull class]] \
+|| ([_object respondsToSelector:@selector(length)] && [(NSData *)_object length] == 0) \
+|| ([_object respondsToSelector:@selector(count)] && [(NSArray *)_object count] == 0))
+
+// SDLog
+#ifdef DEBUG
+#define ZHLog(FORMAT, ...) fprintf(stderr,"时间:%s 行号:%d 文件名:%s\t方法名:%s\n%s\n", __TIME__,__LINE__,[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],__func__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+#define ZHMIN(X,Y) ((X)>(Y)?(Y):(X))
+
+typedef enum : NSUInteger {
+    GetSBViewControllerTypePureHand,
+    GetSBViewControllerTypeFrame,
+    GetSBViewControllerTypeMVC
+} GetSBViewControllerType;
+
+#endif /* PrefixHeader_pch */

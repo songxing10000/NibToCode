@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9813F4FE1EEBE42800265516 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F4FD1EEBE42800265516 /* AppDelegate.m */; };
+		9813F5011EEBE42800265516 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5001EEBE42800265516 /* main.m */; };
+		9813F5041EEBE42800265516 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5031EEBE42800265516 /* ViewController.m */; };
+		9813F5061EEBE42800265516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9813F5051EEBE42800265516 /* Assets.xcassets */; };
+		9813F5091EEBE42800265516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9813F5071EEBE42800265516 /* Main.storyboard */; };
+		9813F5121EEBE43500265516 /* XMDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5111EEBE43500265516 /* XMDragView.m */; };
+		9813F5151EEBE53E00265516 /* XMFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5141EEBE53E00265516 /* XMFileItem.m */; };
+		9813F5B41EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5221EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.m */; };
+		9813F5B51EEBF0B100265516 /* ZHStroyBoardToFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5241EEBF0B100265516 /* ZHStroyBoardToFrameModel.m */; };
+		9813F5B61EEBF0B100265516 /* ZHStroyBoardToFrameMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5261EEBF0B100265516 /* ZHStroyBoardToFrameMVC.m */; };
+		9813F5B71EEBF0B100265516 /* ZHStroyBoardToFrameProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5281EEBF0B100265516 /* ZHStroyBoardToFrameProject.m */; };
+		9813F5C21EEBF0B100265516 /* propertyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5421EEBF0B100265516 /* propertyNode.m */; };
+		9813F5C31EEBF0B100265516 /* ReadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5441EEBF0B100265516 /* ReadXML.m */; };
+		9813F5C41EEBF0B100265516 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5461EEBF0B100265516 /* TreeNode.m */; };
+		9813F5C51EEBF0B100265516 /* ViewProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5491EEBF0B100265516 /* ViewProperty.m */; };
+		9813F5C61EEBF0B100265516 /* ZHStoryboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F54B1EEBF0B100265516 /* ZHStoryboardManager.m */; };
+		9813F5C71EEBF0B100265516 /* ZHStoryboardPropertyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F54D1EEBF0B100265516 /* ZHStoryboardPropertyManager.m */; };
+		9813F5C81EEBF0B100265516 /* ZHStoryboardTextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F54F1EEBF0B100265516 /* ZHStoryboardTextManager.m */; };
+		9813F5C91EEBF0B100265516 /* ZHStoryboardXMLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5511EEBF0B100265516 /* ZHStoryboardXMLManager.m */; };
+		9813F5CA1EEBF0B100265516 /* ZHStroyBoardFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5531EEBF0B100265516 /* ZHStroyBoardFileManager.m */; };
+		9813F5CB1EEBF0B100265516 /* ZHStroyBoardToPureHandProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5551EEBF0B100265516 /* ZHStroyBoardToPureHandProject.m */; };
+		9813F5CD1EEBF0B100265516 /* CreatFatherFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F55A1EEBF0B100265516 /* CreatFatherFile.m */; };
+		9813F5CE1EEBF0B100265516 /* FMDBCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F55C1EEBF0B100265516 /* FMDBCreat.m */; };
+		9813F5D21EEBF0B100265516 /* RunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5641EEBF0B100265516 /* RunTime.m */; };
+		9813F5D61EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F56D1EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.m */; };
+		9813F5D71EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F56F1EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.m */; };
+		9813F5D81EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5711EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.m */; };
+		9813F5D91EEBF0B100265516 /* ZHStroyBoardToMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5731EEBF0B100265516 /* ZHStroyBoardToMVC.m */; };
+		9813F5DA1EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5751EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.m */; };
+		9813F5DD1EEBF0B100265516 /* ZHNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F57E1EEBF0B100265516 /* ZHNSString.m */; };
+		9813F5E01EEBF0B100265516 /* ZHFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F5861EEBF0B100265516 /* ZHFileManager.m */; };
+		9813F5E21EEBF0B100265516 /* ZHWordWrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9813F58C1EEBF0B100265516 /* ZHWordWrap.m */; };
+		FFE1D724D532BF102853421A /* libPods-NibToCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D5CCDE4317A1F1881F82A8 /* libPods-NibToCode.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		062F08D8B1205C862224B516 /* Pods-NibToCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibToCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-NibToCode/Pods-NibToCode.release.xcconfig"; sourceTree = "<group>"; };
+		6C5E7352DF99F84B1173ABD0 /* Pods-NibToCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibToCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NibToCode/Pods-NibToCode.debug.xcconfig"; sourceTree = "<group>"; };
+		72D5CCDE4317A1F1881F82A8 /* libPods-NibToCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibToCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9813F4F91EEBE42800265516 /* NibToCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibToCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9813F4FC1EEBE42800265516 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9813F4FD1EEBE42800265516 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9813F5001EEBE42800265516 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9813F5021EEBE42800265516 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9813F5031EEBE42800265516 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9813F5051EEBE42800265516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9813F5081EEBE42800265516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9813F50A1EEBE42800265516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9813F5101EEBE43500265516 /* XMDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMDragView.h; sourceTree = "<group>"; };
+		9813F5111EEBE43500265516 /* XMDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMDragView.m; sourceTree = "<group>"; };
+		9813F5131EEBE53E00265516 /* XMFileItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMFileItem.h; sourceTree = "<group>"; };
+		9813F5141EEBE53E00265516 /* XMFileItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMFileItem.m; sourceTree = "<group>"; };
+		9813F5161EEBF09B00265516 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9813F5211EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardTextManagerToFrameMVC.h; sourceTree = "<group>"; };
+		9813F5221EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardTextManagerToFrameMVC.m; sourceTree = "<group>"; };
+		9813F5231EEBF0B100265516 /* ZHStroyBoardToFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToFrameModel.h; sourceTree = "<group>"; };
+		9813F5241EEBF0B100265516 /* ZHStroyBoardToFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToFrameModel.m; sourceTree = "<group>"; };
+		9813F5251EEBF0B100265516 /* ZHStroyBoardToFrameMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToFrameMVC.h; sourceTree = "<group>"; };
+		9813F5261EEBF0B100265516 /* ZHStroyBoardToFrameMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToFrameMVC.m; sourceTree = "<group>"; };
+		9813F5271EEBF0B100265516 /* ZHStroyBoardToFrameProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToFrameProject.h; sourceTree = "<group>"; };
+		9813F5281EEBF0B100265516 /* ZHStroyBoardToFrameProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToFrameProject.m; sourceTree = "<group>"; };
+		9813F5411EEBF0B100265516 /* propertyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = propertyNode.h; sourceTree = "<group>"; };
+		9813F5421EEBF0B100265516 /* propertyNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = propertyNode.m; sourceTree = "<group>"; };
+		9813F5431EEBF0B100265516 /* ReadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadXML.h; sourceTree = "<group>"; };
+		9813F5441EEBF0B100265516 /* ReadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadXML.m; sourceTree = "<group>"; };
+		9813F5451EEBF0B100265516 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		9813F5461EEBF0B100265516 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		9813F5481EEBF0B100265516 /* ViewProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewProperty.h; sourceTree = "<group>"; };
+		9813F5491EEBF0B100265516 /* ViewProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewProperty.m; sourceTree = "<group>"; };
+		9813F54A1EEBF0B100265516 /* ZHStoryboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardManager.h; sourceTree = "<group>"; };
+		9813F54B1EEBF0B100265516 /* ZHStoryboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardManager.m; sourceTree = "<group>"; };
+		9813F54C1EEBF0B100265516 /* ZHStoryboardPropertyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardPropertyManager.h; sourceTree = "<group>"; };
+		9813F54D1EEBF0B100265516 /* ZHStoryboardPropertyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardPropertyManager.m; sourceTree = "<group>"; };
+		9813F54E1EEBF0B100265516 /* ZHStoryboardTextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardTextManager.h; sourceTree = "<group>"; };
+		9813F54F1EEBF0B100265516 /* ZHStoryboardTextManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardTextManager.m; sourceTree = "<group>"; };
+		9813F5501EEBF0B100265516 /* ZHStoryboardXMLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardXMLManager.h; sourceTree = "<group>"; };
+		9813F5511EEBF0B100265516 /* ZHStoryboardXMLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardXMLManager.m; sourceTree = "<group>"; };
+		9813F5521EEBF0B100265516 /* ZHStroyBoardFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardFileManager.h; sourceTree = "<group>"; };
+		9813F5531EEBF0B100265516 /* ZHStroyBoardFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardFileManager.m; sourceTree = "<group>"; };
+		9813F5541EEBF0B100265516 /* ZHStroyBoardToPureHandProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToPureHandProject.h; sourceTree = "<group>"; };
+		9813F5551EEBF0B100265516 /* ZHStroyBoardToPureHandProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToPureHandProject.m; sourceTree = "<group>"; };
+		9813F5591EEBF0B100265516 /* CreatFatherFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatFatherFile.h; sourceTree = "<group>"; };
+		9813F55A1EEBF0B100265516 /* CreatFatherFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatFatherFile.m; sourceTree = "<group>"; };
+		9813F55B1EEBF0B100265516 /* FMDBCreat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBCreat.h; sourceTree = "<group>"; };
+		9813F55C1EEBF0B100265516 /* FMDBCreat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBCreat.m; sourceTree = "<group>"; };
+		9813F5631EEBF0B100265516 /* RunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTime.h; sourceTree = "<group>"; };
+		9813F5641EEBF0B100265516 /* RunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTime.m; sourceTree = "<group>"; };
+		9813F56C1EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardTextManagerToHandPureMVC.h; sourceTree = "<group>"; };
+		9813F56D1EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardTextManagerToHandPureMVC.m; sourceTree = "<group>"; };
+		9813F56E1EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStoryboardTextManagerToMVC.h; sourceTree = "<group>"; };
+		9813F56F1EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStoryboardTextManagerToMVC.m; sourceTree = "<group>"; };
+		9813F5701EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardFileManagerToMVC.h; sourceTree = "<group>"; };
+		9813F5711EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardFileManagerToMVC.m; sourceTree = "<group>"; };
+		9813F5721EEBF0B100265516 /* ZHStroyBoardToMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToMVC.h; sourceTree = "<group>"; };
+		9813F5731EEBF0B100265516 /* ZHStroyBoardToMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToMVC.m; sourceTree = "<group>"; };
+		9813F5741EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHStroyBoardToPureHandMVC.h; sourceTree = "<group>"; };
+		9813F5751EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHStroyBoardToPureHandMVC.m; sourceTree = "<group>"; };
+		9813F57D1EEBF0B100265516 /* ZHNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNSString.h; sourceTree = "<group>"; };
+		9813F57E1EEBF0B100265516 /* ZHNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNSString.m; sourceTree = "<group>"; };
+		9813F5851EEBF0B100265516 /* ZHFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHFileManager.h; sourceTree = "<group>"; };
+		9813F5861EEBF0B100265516 /* ZHFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHFileManager.m; sourceTree = "<group>"; };
+		9813F58B1EEBF0B100265516 /* ZHWordWrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHWordWrap.h; sourceTree = "<group>"; };
+		9813F58C1EEBF0B100265516 /* ZHWordWrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHWordWrap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9813F4F61EEBE42800265516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE1D724D532BF102853421A /* libPods-NibToCode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D18AC6B95C9964BCD6A609C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D5CCDE4317A1F1881F82A8 /* libPods-NibToCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36E5EA8BF2D082E6CA0DB41A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C5E7352DF99F84B1173ABD0 /* Pods-NibToCode.debug.xcconfig */,
+				062F08D8B1205C862224B516 /* Pods-NibToCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9813F4F01EEBE42800265516 = {
+			isa = PBXGroup;
+			children = (
+				9813F5161EEBF09B00265516 /* PrefixHeader.pch */,
+				9813F4FB1EEBE42800265516 /* NibToCode */,
+				9813F4FA1EEBE42800265516 /* Products */,
+				36E5EA8BF2D082E6CA0DB41A /* Pods */,
+				0D18AC6B95C9964BCD6A609C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9813F4FA1EEBE42800265516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9813F4F91EEBE42800265516 /* NibToCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9813F4FB1EEBE42800265516 /* NibToCode */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5171EEBF0B100265516 /* CodeMaker */,
+				9813F5101EEBE43500265516 /* XMDragView.h */,
+				9813F5111EEBE43500265516 /* XMDragView.m */,
+				9813F5131EEBE53E00265516 /* XMFileItem.h */,
+				9813F5141EEBE53E00265516 /* XMFileItem.m */,
+				9813F4FC1EEBE42800265516 /* AppDelegate.h */,
+				9813F4FD1EEBE42800265516 /* AppDelegate.m */,
+				9813F5021EEBE42800265516 /* ViewController.h */,
+				9813F5031EEBE42800265516 /* ViewController.m */,
+				9813F5051EEBE42800265516 /* Assets.xcassets */,
+				9813F5071EEBE42800265516 /* Main.storyboard */,
+				9813F50A1EEBE42800265516 /* Info.plist */,
+				9813F4FF1EEBE42800265516 /* Supporting Files */,
+			);
+			path = NibToCode;
+			sourceTree = "<group>";
+		};
+		9813F4FF1EEBE42800265516 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5001EEBE42800265516 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9813F5171EEBF0B100265516 /* CodeMaker */ = {
+			isa = PBXGroup;
+			children = (
+				9813F51F1EEBF0B100265516 /* Frame纯手写 */,
+				9813F52D1EEBF0B100265516 /* Masonry纯手写 */,
+				9813F5581EEBF0B100265516 /* 公用类 */,
+			);
+			path = CodeMaker;
+			sourceTree = "<group>";
+		};
+		9813F51F1EEBF0B100265516 /* Frame纯手写 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5201EEBF0B100265516 /* 实现关键类 */,
+			);
+			path = "Frame纯手写";
+			sourceTree = "<group>";
+		};
+		9813F5201EEBF0B100265516 /* 实现关键类 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5211EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.h */,
+				9813F5221EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.m */,
+				9813F5231EEBF0B100265516 /* ZHStroyBoardToFrameModel.h */,
+				9813F5241EEBF0B100265516 /* ZHStroyBoardToFrameModel.m */,
+				9813F5251EEBF0B100265516 /* ZHStroyBoardToFrameMVC.h */,
+				9813F5261EEBF0B100265516 /* ZHStroyBoardToFrameMVC.m */,
+				9813F5271EEBF0B100265516 /* ZHStroyBoardToFrameProject.h */,
+				9813F5281EEBF0B100265516 /* ZHStroyBoardToFrameProject.m */,
+			);
+			path = "实现关键类";
+			sourceTree = "<group>";
+		};
+		9813F52D1EEBF0B100265516 /* Masonry纯手写 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F53F1EEBF0B100265516 /* 依赖类 */,
+				9813F5471EEBF0B100265516 /* 实现关键类 */,
+			);
+			path = "Masonry纯手写";
+			sourceTree = "<group>";
+		};
+		9813F53F1EEBF0B100265516 /* 依赖类 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5401EEBF0B100265516 /* 将XML转换成自定义数据结构的Dictionary */,
+			);
+			path = "依赖类";
+			sourceTree = "<group>";
+		};
+		9813F5401EEBF0B100265516 /* 将XML转换成自定义数据结构的Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5411EEBF0B100265516 /* propertyNode.h */,
+				9813F5421EEBF0B100265516 /* propertyNode.m */,
+				9813F5431EEBF0B100265516 /* ReadXML.h */,
+				9813F5441EEBF0B100265516 /* ReadXML.m */,
+				9813F5451EEBF0B100265516 /* TreeNode.h */,
+				9813F5461EEBF0B100265516 /* TreeNode.m */,
+			);
+			path = "将XML转换成自定义数据结构的Dictionary";
+			sourceTree = "<group>";
+		};
+		9813F5471EEBF0B100265516 /* 实现关键类 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5481EEBF0B100265516 /* ViewProperty.h */,
+				9813F5491EEBF0B100265516 /* ViewProperty.m */,
+				9813F54A1EEBF0B100265516 /* ZHStoryboardManager.h */,
+				9813F54B1EEBF0B100265516 /* ZHStoryboardManager.m */,
+				9813F54C1EEBF0B100265516 /* ZHStoryboardPropertyManager.h */,
+				9813F54D1EEBF0B100265516 /* ZHStoryboardPropertyManager.m */,
+				9813F54E1EEBF0B100265516 /* ZHStoryboardTextManager.h */,
+				9813F54F1EEBF0B100265516 /* ZHStoryboardTextManager.m */,
+				9813F5501EEBF0B100265516 /* ZHStoryboardXMLManager.h */,
+				9813F5511EEBF0B100265516 /* ZHStoryboardXMLManager.m */,
+				9813F5521EEBF0B100265516 /* ZHStroyBoardFileManager.h */,
+				9813F5531EEBF0B100265516 /* ZHStroyBoardFileManager.m */,
+				9813F5541EEBF0B100265516 /* ZHStroyBoardToPureHandProject.h */,
+				9813F5551EEBF0B100265516 /* ZHStroyBoardToPureHandProject.m */,
+			);
+			path = "实现关键类";
+			sourceTree = "<group>";
+		};
+		9813F5581EEBF0B100265516 /* 公用类 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5591EEBF0B100265516 /* CreatFatherFile.h */,
+				9813F55A1EEBF0B100265516 /* CreatFatherFile.m */,
+				9813F55B1EEBF0B100265516 /* FMDBCreat.h */,
+				9813F55C1EEBF0B100265516 /* FMDBCreat.m */,
+				9813F5631EEBF0B100265516 /* RunTime.h */,
+				9813F5641EEBF0B100265516 /* RunTime.m */,
+				9813F56C1EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.h */,
+				9813F56D1EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.m */,
+				9813F56E1EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.h */,
+				9813F56F1EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.m */,
+				9813F5701EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.h */,
+				9813F5711EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.m */,
+				9813F5721EEBF0B100265516 /* ZHStroyBoardToMVC.h */,
+				9813F5731EEBF0B100265516 /* ZHStroyBoardToMVC.m */,
+				9813F5741EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.h */,
+				9813F5751EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.m */,
+				9813F57C1EEBF0B100265516 /* 字符串操作 */,
+				9813F5821EEBF0B100265516 /* 文件操作 */,
+				9813F58A1EEBF0B100265516 /* 格式化对齐代码 */,
+			);
+			path = "公用类";
+			sourceTree = "<group>";
+		};
+		9813F57C1EEBF0B100265516 /* 字符串操作 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F57D1EEBF0B100265516 /* ZHNSString.h */,
+				9813F57E1EEBF0B100265516 /* ZHNSString.m */,
+			);
+			path = "字符串操作";
+			sourceTree = "<group>";
+		};
+		9813F5821EEBF0B100265516 /* 文件操作 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F5851EEBF0B100265516 /* ZHFileManager.h */,
+				9813F5861EEBF0B100265516 /* ZHFileManager.m */,
+			);
+			path = "文件操作";
+			sourceTree = "<group>";
+		};
+		9813F58A1EEBF0B100265516 /* 格式化对齐代码 */ = {
+			isa = PBXGroup;
+			children = (
+				9813F58B1EEBF0B100265516 /* ZHWordWrap.h */,
+				9813F58C1EEBF0B100265516 /* ZHWordWrap.m */,
+			);
+			path = "格式化对齐代码";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9813F4F81EEBE42800265516 /* NibToCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9813F50D1EEBE42800265516 /* Build configuration list for PBXNativeTarget "NibToCode" */;
+			buildPhases = (
+				C14C40988521A2641DD40CB0 /* [CP] Check Pods Manifest.lock */,
+				9813F4F51EEBE42800265516 /* Sources */,
+				9813F4F61EEBE42800265516 /* Frameworks */,
+				9813F4F71EEBE42800265516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibToCode;
+			productName = NibToCode;
+			productReference = 9813F4F91EEBE42800265516 /* NibToCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9813F4F11EEBE42800265516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dfpo;
+				TargetAttributes = {
+					9813F4F81EEBE42800265516 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9813F4F41EEBE42800265516 /* Build configuration list for PBXProject "NibToCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9813F4F01EEBE42800265516;
+			productRefGroup = 9813F4FA1EEBE42800265516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9813F4F81EEBE42800265516 /* NibToCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9813F4F71EEBE42800265516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9813F5061EEBE42800265516 /* Assets.xcassets in Resources */,
+				9813F5091EEBE42800265516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C14C40988521A2641DD40CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NibToCode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9813F4F51EEBE42800265516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9813F5041EEBE42800265516 /* ViewController.m in Sources */,
+				9813F5C61EEBF0B100265516 /* ZHStoryboardManager.m in Sources */,
+				9813F5C91EEBF0B100265516 /* ZHStoryboardXMLManager.m in Sources */,
+				9813F5C21EEBF0B100265516 /* propertyNode.m in Sources */,
+				9813F5B71EEBF0B100265516 /* ZHStroyBoardToFrameProject.m in Sources */,
+				9813F5121EEBE43500265516 /* XMDragView.m in Sources */,
+				9813F5C51EEBF0B100265516 /* ViewProperty.m in Sources */,
+				9813F5E21EEBF0B100265516 /* ZHWordWrap.m in Sources */,
+				9813F5DA1EEBF0B100265516 /* ZHStroyBoardToPureHandMVC.m in Sources */,
+				9813F5151EEBE53E00265516 /* XMFileItem.m in Sources */,
+				9813F5C71EEBF0B100265516 /* ZHStoryboardPropertyManager.m in Sources */,
+				9813F5CA1EEBF0B100265516 /* ZHStroyBoardFileManager.m in Sources */,
+				9813F5D81EEBF0B100265516 /* ZHStroyBoardFileManagerToMVC.m in Sources */,
+				9813F5CD1EEBF0B100265516 /* CreatFatherFile.m in Sources */,
+				9813F5B41EEBF0B100265516 /* ZHStoryboardTextManagerToFrameMVC.m in Sources */,
+				9813F5D71EEBF0B100265516 /* ZHStoryboardTextManagerToMVC.m in Sources */,
+				9813F5C41EEBF0B100265516 /* TreeNode.m in Sources */,
+				9813F5D91EEBF0B100265516 /* ZHStroyBoardToMVC.m in Sources */,
+				9813F5C81EEBF0B100265516 /* ZHStoryboardTextManager.m in Sources */,
+				9813F5E01EEBF0B100265516 /* ZHFileManager.m in Sources */,
+				9813F5D21EEBF0B100265516 /* RunTime.m in Sources */,
+				9813F5011EEBE42800265516 /* main.m in Sources */,
+				9813F5CE1EEBF0B100265516 /* FMDBCreat.m in Sources */,
+				9813F5DD1EEBF0B100265516 /* ZHNSString.m in Sources */,
+				9813F5CB1EEBF0B100265516 /* ZHStroyBoardToPureHandProject.m in Sources */,
+				9813F5D61EEBF0B100265516 /* ZHStoryboardTextManagerToHandPureMVC.m in Sources */,
+				9813F5B61EEBF0B100265516 /* ZHStroyBoardToFrameMVC.m in Sources */,
+				9813F4FE1EEBE42800265516 /* AppDelegate.m in Sources */,
+				9813F5B51EEBF0B100265516 /* ZHStroyBoardToFrameModel.m in Sources */,
+				9813F5C31EEBF0B100265516 /* ReadXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9813F5071EEBE42800265516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9813F5081EEBE42800265516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9813F50B1EEBE42800265516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9813F50C1EEBE42800265516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9813F50E1EEBE42800265516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5E7352DF99F84B1173ABD0 /* Pods-NibToCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/PrefixHeader.pch";
+				INFOPLIST_FILE = NibToCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342.NibToCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9813F50F1EEBE42800265516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062F08D8B1205C862224B516 /* Pods-NibToCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = "$SRCROOT/PrefixHeader.pch";
+				INFOPLIST_FILE = NibToCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-342.NibToCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9813F4F41EEBE42800265516 /* Build configuration list for PBXProject "NibToCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9813F50B1EEBE42800265516 /* Debug */,
+				9813F50C1EEBE42800265516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9813F50D1EEBE42800265516 /* Build configuration list for PBXNativeTarget "NibToCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9813F50E1EEBE42800265516 /* Debug */,
+				9813F50F1EEBE42800265516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9813F4F11EEBE42800265516 /* Project object */;
+}
